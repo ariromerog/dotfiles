@@ -19,8 +19,6 @@ return require('packer').startup(function(use)
 
   use 'wbthomason/packer.nvim'
   use 'tpope/vim-commentary'
---  use 'ellisonleao/gruvbox.nvim'
---  use 'dracula/vim'
   use { "catppuccin/nvim", as = "catppuccin" }
   use 'nvim-lualine/lualine.nvim'
 --  use 'nvim-treesitter/nvim-treesitter'
