@@ -20,4 +20,4 @@ vim.cmd [[ set noswapfile ]]
 vim.wo.number = true
 
 -- Color
-vim.cmd.colorscheme('catppuccin-mocha')
+-- vim.cmd.colorscheme('catppuccin-mocha')
