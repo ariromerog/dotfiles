@@ -1,4 +1,5 @@
 {
+  "LuaSnip": { "branch": "master", "commit": "1f4ad8bb72bdeb60975e98652636b991a9b7475d" },
   "catppuccin": { "branch": "main", "commit": "a8dfb969e76d1a0752d98b5347be9ffb9bca9592" },
   "lazy.nvim": { "branch": "main", "commit": "96584866b9c5e998cbae300594d0ccfd0c464627" },
   "neo-tree.nvim": { "branch": "v3.x", "commit": "f053f09962819c1558cd93639aa80edf7c314c17" },
