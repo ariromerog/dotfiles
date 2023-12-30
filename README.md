@@ -1,14 +1,18 @@
 # My Dotfiles
 
-This is my portable configuration for Neovim and Tmux, which I use in MacOS and Arch Linux.
+This is my portable configuration for Neovim and Tmux, which I use in MacOS and Linux.
 
 ## Dev Environment setup
 
 - Install `fish` and `omf` using your system package manager.
-- Install `z` script and  `aight` theme using `omf install`
+- Install `z` script and `aight` theme using `omf install`
+- Install Neovim and LazyVim.
 
 ## Screenshots
-<p align="center">
-  <img src="./assets/tmux.png"/>
-</p>
 
+<center>
+<img src='./assets/tmux.png' />
+<img src='./assets/nvim.png' />
+</center>
+
+I use Arch, btw.
