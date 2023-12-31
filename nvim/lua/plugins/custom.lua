@@ -32,6 +32,8 @@ return {
 				"vim",
 				"yaml",
 				"ruby",
+				"rust",
+				"c",
 			},
 		},
 	},
