@@ -41,14 +41,5 @@ return {
     "nvim-treesitter/nvim-treesitter-context",
     enabled = false,
   },
-  {
-    "nvim-lspconfig",
-    opts = {
-      diagnostics = {
-        virtual_text = false,
-        signs = true,
-      },
-    },
-  },
   { "tpope/vim-fugitive" },
 }
