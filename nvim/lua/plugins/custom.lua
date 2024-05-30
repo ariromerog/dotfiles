@@ -12,7 +12,6 @@ return {
 			colorscheme = "onedark",
 		},
 	},
-	{ "folke/trouble.nvim", enabled = false },
 	{
 		"nvim-treesitter/nvim-treesitter",
 		opts = {
