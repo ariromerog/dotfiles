@@ -162,11 +162,20 @@ require("lazy").setup({
 			})
 		end,
 	},
+	-- {
+	-- 	"ellisonleao/gruvbox.nvim",
+	-- 	priority = 1000,
+	-- 	init = function()
+	-- 		vim.cmd.colorscheme("gruvbox")
+	-- 		vim.cmd.hi("Comment gui=none")
+	-- 	end,
+	-- },
 	{
-		"ellisonleao/gruvbox.nvim",
+		"catppuccin/nvim",
+		name = "catppuccin",
 		priority = 1000,
 		init = function()
-			vim.cmd.colorscheme("gruvbox")
+			vim.cmd.colorscheme("catppuccin-macchiato")
 			vim.cmd.hi("Comment gui=none")
 		end,
 	},
