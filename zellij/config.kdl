@@ -1,6 +1,10 @@
 // If you'd like to override the default keybindings completely, be sure to change "keybinds" to "keybinds clear-defaults=true"
-keybinds {
-    unbind "Ctrl s" // unbind in all modes
+keybinds clear-defaults=true {
+    // unbind "Ctrl s" // unbind in all modes
+    // unbind "Ctrl h" // unbind in all modes
+    // unbind "Ctrl j" // unbind in all modes
+    // unbind "Ctrl k" // unbind in all modes
+    // unbind "Ctrl l" // unbind in all modes
 
     normal {
         // uncomment this and adjust key if using copy_on_select=false
@@ -40,7 +44,7 @@ keybinds {
         bind "c" { SwitchToMode "RenamePane"; PaneNameInput 0;}
     }
     move {
-        bind "Ctrl h" { SwitchToMode "Normal"; }
+        bind "Ctrl n" { SwitchToMode "Normal"; }
         bind "n" "Tab" { MovePane; }
         bind "p" { MovePaneBackwards; }
         bind "h" "Left" { MovePane "Left"; }
@@ -181,7 +185,7 @@ keybinds {
         bind "Ctrl t" { SwitchToMode "Tab"; }
     }
     shared_except "move" "locked" {
-        bind "Ctrl h" { SwitchToMode "Move"; }
+        bind "Ctrl n" { SwitchToMode "Move"; }
     }
     shared_except "tmux" "locked" {
         bind "Ctrl b" { SwitchToMode "Tmux"; }
