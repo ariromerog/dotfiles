@@ -74,20 +74,20 @@ keybinds clear-defaults=true {
         bind "9" { GoToTab 9; SwitchToMode "Normal"; }
         bind "Tab" { ToggleTab; }
     }
-    scroll {
-        bind "Ctrl s" { SwitchToMode "Normal"; }
-        bind "e" { EditScrollback; SwitchToMode "Normal"; }
-        bind "s" { SwitchToMode "EnterSearch"; SearchInput 0; }
-        bind "Ctrl c" { ScrollToBottom; SwitchToMode "Normal"; }
-        bind "j" "Down" { ScrollDown; }
-        bind "k" "Up" { ScrollUp; }
-        bind "Ctrl f" "PageDown" "Right" "l" { PageScrollDown; }
-        bind "Ctrl b" "PageUp" "Left" "h" { PageScrollUp; }
-        bind "d" { HalfPageScrollDown; }
-        bind "u" { HalfPageScrollUp; }
-        // uncomment this and adjust key if using copy_on_select=false
-        // bind "Alt c" { Copy; }
-    }
+    // scroll {
+    //     bind "Ctrl s" { SwitchToMode "Normal"; }
+    //     bind "e" { EditScrollback; SwitchToMode "Normal"; }
+    //     bind "s" { SwitchToMode "EnterSearch"; SearchInput 0; }
+    //     bind "Ctrl c" { ScrollToBottom; SwitchToMode "Normal"; }
+    //     bind "j" "Down" { ScrollDown; }
+    //     bind "k" "Up" { ScrollUp; }
+    //     bind "Ctrl f" "PageDown" "Right" "l" { PageScrollDown; }
+    //     bind "Ctrl b" "PageUp" "Left" "h" { PageScrollUp; }
+    //     bind "d" { HalfPageScrollDown; }
+    //     bind "u" { HalfPageScrollUp; }
+    //     // uncomment this and adjust key if using copy_on_select=false
+    //     // bind "Alt c" { Copy; }
+    // }
     search {
         bind "Ctrl f" { SwitchToMode "Normal"; }
         bind "Ctrl c" { ScrollToBottom; SwitchToMode "Normal"; }
@@ -117,7 +117,7 @@ keybinds clear-defaults=true {
     }
     session {
         bind "Ctrl o" { SwitchToMode "Normal"; }
-        bind "Ctrl s" { SwitchToMode "Scroll"; }
+        // bind "Ctrl s" { SwitchToMode "Scroll"; }
         bind "d" { Detach; }
         bind "w" {
             LaunchOrFocusPlugin "session-manager" {
@@ -175,9 +175,9 @@ keybinds clear-defaults=true {
     shared_except "resize" "locked" {
         bind "Ctrl n" { SwitchToMode "Resize"; }
     }
-    shared_except "scroll" "locked" {
-        bind "Ctrl s" { SwitchToMode "Scroll"; }
-    }
+    // shared_except "scroll" "locked" {
+    //     bind "Ctrl s" { SwitchToMode "Scroll"; }
+    // }
     shared_except "session" "locked" {
         bind "Ctrl o" { SwitchToMode "Session"; }
     }
