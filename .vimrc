@@ -49,6 +49,7 @@ set wrap "Wrap lines
 " plugins
 " ------------------------------------------------------------------------------
 call plug#begin()
+  Plug 'ryanoasis/vim-devicons'
 	Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 	Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -56,6 +57,8 @@ call plug#begin()
   Plug 'jiangmiao/auto-pairs'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-commentary'
 call plug#end()
 
 " ------------------------------------------------------------------------------
@@ -117,4 +120,15 @@ let g:NERDTreeQuitOnOpen = 1
 " ------------------------------------------------------------------------------
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+
+let g:coc_global_extensions = [
+      \ 'coc-diagnostic',
+      \ 'coc-json',
+      \ 'coc-tsserver',
+      \ 'coc-eslint',
+      \ 'coc-solargraph',
+      \ 'coc-css',
+      \ ]
+
+
 
