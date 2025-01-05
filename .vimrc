@@ -75,7 +75,7 @@ colorscheme catppuccin_frappe
 
 nmap <leader>e :NERDTreeToggle<CR>
 nmap <leader>t :term<CR>
-nmap <leader>f :FZF<CR>
+nmap <leader><space> :FZF<CR>
 nmap <leader>s :w<CR>
 nmap <leader>wq :q<CR>
 nmap <leader>ws :split<CR>
@@ -126,7 +126,6 @@ let g:coc_global_extensions = [
       \ 'coc-json',
       \ 'coc-tsserver',
       \ 'coc-eslint',
-      \ 'coc-solargraph',
       \ 'coc-css',
       \ ]
 
