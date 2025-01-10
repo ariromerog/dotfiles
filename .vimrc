@@ -50,6 +50,7 @@ set wrap "Wrap lines
 " ------------------------------------------------------------------------------
 call plug#begin()
   Plug 'ryanoasis/vim-devicons'
+  Plug 'morhetz/gruvbox'
 	Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 	Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -67,7 +68,8 @@ call plug#end()
 syntax on
 set termguicolors
 set cursorline
-colorscheme catppuccin_frappe
+set background=dark
+colorscheme gruvbox
 
 " ------------------------------------------------------------------------------
 " Key bindings
@@ -103,7 +105,7 @@ nmap <silent> gr <Plug>(coc-references)
 " ------------------------------------------------------------------------------
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='atomic'
+let g:airline_theme='gruvbox'
 
 " ------------------------------------------------------------------------------
 "  NerdTree
