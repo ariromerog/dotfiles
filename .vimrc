@@ -88,9 +88,9 @@ nmap <leader>wj :wincmd j<CR>
 nmap <leader>wh :wincmd h<CR>
 nmap <leader>wl :wincmd l<CR>
 nmap <leader>QQ :qa!<CR>
-nmap <leader>bn :bNext<CR>
-nmap <leader>bp :bprevious<CR>
-nmap <leader>bd :bdelete<CR>
+nmap L :bNext<CR>
+nmap H :bprevious<CR>
+nmap X :bdelete<CR>
 
 vnoremap > >gv
 vnoremap < <gv
