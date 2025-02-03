@@ -83,10 +83,10 @@ nmap <leader>wq :q<CR>
 nmap <leader>ws :split<CR>
 nmap <leader>wv :vsplit<CR>
 nmap <leader>qq :qa<CR>
-nmap <leader>wk :wincmd k<CR>
-nmap <leader>wj :wincmd j<CR>
-nmap <leader>wh :wincmd h<CR>
-nmap <leader>wl :wincmd l<CR>
+nmap <leader>k :wincmd k<CR>
+nmap <leader>j :wincmd j<CR>
+nmap <leader>h :wincmd h<CR>
+nmap <leader>l :wincmd l<CR>
 nmap <leader>QQ :qa!<CR>
 nmap L :bNext<CR>
 nmap H :bprevious<CR>
