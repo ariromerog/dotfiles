@@ -60,6 +60,7 @@ call plug#begin()
   Plug 'vim-airline/vim-airline-themes'
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-commentary'
+  Plug 'yaegassy/coc-ruff', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
 " ------------------------------------------------------------------------------
@@ -75,7 +76,8 @@ colorscheme gruvbox
 " Key bindings
 " ------------------------------------------------------------------------------
 
-nmap <leader>e :NERDTreeToggle<CR>
+nmap <leader>e :NERDTreeToggle %<CR>
+nmap <leader>E :NERDTreeToggle<CR>
 nmap <leader>t :term<CR>
 nmap <leader><space> :FZF<CR>
 nmap <leader>s :w<CR>
@@ -129,6 +131,7 @@ let g:coc_global_extensions = [
       \ 'coc-tsserver',
       \ 'coc-eslint',
       \ 'coc-css',
+      \ 'coc-python',
       \ ]
 
 
