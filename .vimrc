@@ -80,7 +80,6 @@ nmap <leader>e :NERDTreeToggle %<CR>
 nmap <leader>E :NERDTreeToggle<CR>
 nmap <leader>t :term<CR>
 nmap <leader><space> :FZF<CR>
-nmap <leader>s :w<CR>
 nmap <leader>wq :q<CR>
 nmap <leader>ws :split<CR>
 nmap <leader>wv :vsplit<CR>
@@ -93,6 +92,7 @@ nmap <leader>QQ :qa!<CR>
 nmap L :bNext<CR>
 nmap H :bprevious<CR>
 nmap X :bdelete<CR>
+map <C-s> :w<CR>
 
 vnoremap > >gv
 vnoremap < <gv
