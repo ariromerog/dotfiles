@@ -23,6 +23,7 @@ set mouse=a
 set hidden
 set re=0
 set statusline=0
+set smartcase
 
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
