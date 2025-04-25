@@ -97,6 +97,7 @@ map <C-s> :w<CR>
 
 vnoremap > >gv
 vnoremap < <gv
+vnoremap <C-c> "+y<CR>
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
@@ -134,6 +135,7 @@ let g:coc_global_extensions = [
       \ 'coc-css',
       \ 'coc-python',
       \ ]
+
 
 
 
