@@ -71,7 +71,7 @@ syntax on
 set termguicolors
 set cursorline
 set background=dark
-colorscheme gruvbox
+colorscheme catppuccin_macchiato
 
 " ------------------------------------------------------------------------------
 " Key bindings

@@ -1,9 +1,10 @@
 [general]
 import = [
-"./themes/gruvbox_material_medium_dark.toml",
+  "./themes/catppuccin_macchiato.toml",
 ]
 
+[window]
+padding = { x = 10, y = 10 }
 
 [font]
-# normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
 normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
