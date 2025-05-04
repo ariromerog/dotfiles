@@ -12,7 +12,7 @@ window#waybar {
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
-  margin: 10px;
+  margin: 5px;
 }
 
 window#waybar.hidden {
@@ -52,13 +52,13 @@ button:hover {
 }
 
 .modules-left {
-  margin: 10px 10px 0 10px;
+  margin: 5px 10px 0 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
 
 .modules-right {
-  margin: 10px 10px 0 10px;
+  margin: 5px 10px 0 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
@@ -66,8 +66,8 @@ button:hover {
 #workspaces button {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
-  padding: 4px;
-  margin: 4px;
+  padding: 5px;
+  margin: 5px;
 }
 
 #workspaces button:hover {

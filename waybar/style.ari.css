@@ -10,7 +10,8 @@ window#waybar {
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
-  padding: 8px;
+  padding: 4px;
+  margin: 0;
 }
 
 window#waybar.hidden {
