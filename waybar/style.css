@@ -30,25 +30,31 @@ window#waybar.chromium {
 }
 
 .modules-left {
-  margin: 10px 10px 0 10px;
+  margin: 10px 10px 2px 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .modules-right {
-  margin: 10px 10px 0 10px;
+  margin: 10px 10px 2px 10px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 #workspaces {
-  margin: 10px 10px 0 10px;
+  margin: 10px 10px 2px 10px;
 }
 
 #workspaces button {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin: 0 2px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 #workspaces button:hover {
