@@ -9,7 +9,7 @@ set nobackup
 set nowritebackup
 set noswapfile
 set number
-set clipboard=unnamed
+set clipboard=unnamedplus
 set showcmd
 set ruler
 set encoding=utf-8
