@@ -77,8 +77,7 @@ colorscheme catppuccin_macchiato
 " Key bindings
 " ------------------------------------------------------------------------------
 
-nmap <leader>e :NERDTreeToggle %<CR>
-nmap <leader>E :NERDTreeToggle<CR>
+nmap <leader>e :NERDTreeToggle<CR>
 nmap <leader>t :term<CR>
 nmap <leader><space> :FZF<CR>
 nmap <leader>wq :q<CR>
