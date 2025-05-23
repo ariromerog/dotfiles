@@ -1,22 +1,21 @@
 # My Dotfiles
 
-This is my portable configuration for Neovim and Tmux, which I use in MacOS and Linux.
+<center>
+  <img src="assets/desktop.png" />
+</center>
 
 ## Dev Environment setup
 
 - Install `fish` and `omf` using your system package manager.
 - Install `z` script and `aight` theme using `omf install`.
-- Install Neovim and LazyVim.
-- Install [tmux](https://github.com/tmux/tmux/wiki) and [tpm](https://github.com/tmux-plugins/tpm).
+- Install `vim` and a plugin manager. 
+- Install `zellij` for terminal multiplexing.
+
 
 ## Desktop Environment
 
 - Install `hyprland` and `waybar` for tiling window fun.
-
-## Screenshots
-
-<center>
-  <img src="assets/hyprland.png" />
-</center>
+- Optionally install `hyprpaper` and `hyprshot`.
+- I recommend `wofi` for launcher and [wofi-power-menu](https://github.com/szaffarano/wofi-power-menu) (see waybar config).
 
 I use Arch, btw.
