@@ -61,7 +61,10 @@ call plug#begin()
   Plug 'vim-airline/vim-airline-themes'
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-commentary'
+  Plug 'WolfgangMehner/perl-support'
   Plug 'yaegassy/coc-ruff', {'do': 'yarn install --frozen-lockfile'}
+  Plug 'github/copilot.vim'
+  Plug 'ghifarit53/tokyonight-vim'
 call plug#end()
 
 " ------------------------------------------------------------------------------
@@ -71,7 +74,11 @@ syntax on
 set termguicolors
 set cursorline
 set background=dark
-colorscheme catppuccin_macchiato
+colorscheme gruvbox
+
+" let g:tokyonight_style = 'night' " available: night, storm
+" let g:tokyonight_enable_italic = 1
+" colorscheme tokyonight
 
 " ------------------------------------------------------------------------------
 " Key bindings
@@ -108,7 +115,9 @@ nmap <silent> gr <Plug>(coc-references)
 " ------------------------------------------------------------------------------
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-" let g:airline_theme='gruvbox'
+let g:airline#extensions#tabline#fnamemod = '\:t'
+" let g:airline_theme = "tokyonight"
+let g:airline_theme='gruvbox'
 
 " ------------------------------------------------------------------------------
 "  NerdTree
