@@ -157,7 +157,7 @@
     },
     "custom/power": {
         "format": " ⏻ ",
-        "on-click": "~/.cargo/bin/wofi-power-menu"
+        "on-click": "~/.config/hypr/scripts/power-menu-wofi.sh"
 
     },
 }
