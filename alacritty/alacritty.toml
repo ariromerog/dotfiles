@@ -1,12 +1,13 @@
 [general]
 import = [
-"./themes/gruvbox_material_medium_dark.toml"
-# "./themes/catppuccin_macchiato.toml",
+# "./themes/gruvbox_material_medium_dark.toml"
+"./themes/catppuccin_macchiato.toml",
 # "./themes/tokyo_night.toml",
 ]
 
 [window]
 padding = { x = 10, y = 10 }
+#opacity = 0.95 # Adjust this value between 0.0 (fully transparent) and 1.0 (fully opaque)
 
 [font]
 normal = { family = "CaskaydiaCove Nerd Font", style = "Regular" }
