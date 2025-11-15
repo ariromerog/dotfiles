@@ -1,18 +1,17 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: FontAwesome, "SauceCode Pro Nerd Font", Roboto, Helvetica, Arial,
+  font-family: "Cascadia mono nerd fond", Roboto, Helvetica, Arial,
     sans-serif;
-  font-weight: bold;
   font-size: 12px;
 }
 
 window#waybar {
-  background-color: transparent;
+  padding: 2px;
+  background-color: #333;
   /* background-color: rgba(43, 48, 59, 0.8); */
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
-  /* margin: 5px; */
 }
 
 window#waybar.hidden {
@@ -30,37 +29,21 @@ window#waybar.chromium {
 }
 
 .modules-left {
-  margin: 10px 10px 2px 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-  padding: 0 8px;
 }
 
 .modules-right {
-  margin: 10px 10px 2px 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-  padding: 0 8px;
 }
 
 #workspaces {
-  margin: 10px 10px 2px 10px;
+  margin: 0 4px;
 }
 
 #workspaces button {
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  margin: 0 2px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  padding: 2px;
+  margin: 0;
 }
 
 #workspaces button:hover {
-  background: rgba(0, 0, 0, 0.2);
 }
 
 #workspaces button.active {
@@ -73,12 +56,9 @@ window#waybar.chromium {
 }
 
 #window {
-  padding: 4px 8px;
 }
 
 #mode {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-bottom: 3px solid #ffffff;
 }
 
 #clock,
@@ -98,7 +78,6 @@ window#waybar.chromium {
 #scratchpad,
 #power,
 #mpd {
-  padding: 6px 8px;
   color: #ffffff;
 }
 

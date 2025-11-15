@@ -6,9 +6,9 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     // "modules-left": ["hyprland/window"],
-    "modules-left": [ "hyprland/workspaces" ],
-    "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "battery", "battery#bat2", "tray", "custom/power"],
+    "modules-left": [ "cpu", "memory", "temperature", "backlight"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["pulseaudio", "battery", "battery#bat2", "tray",  "clock", "custom/power"],
     // Modules configuration
     // "hyprland/workspaces": {
     //     "disable-scroll": true,
