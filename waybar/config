@@ -6,7 +6,7 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     // "modules-left": ["hyprland/window"],
-    "modules-left": [ "hyprland/workspaces" ],
+    "modules-left": [ "custom/apps", "hyprland/workspaces" ],
     "modules-center": ["clock"],
     "modules-right": ["pulseaudio", "battery", "battery#bat2", "tray", "custom/power"],
     // Modules configuration
@@ -141,7 +141,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "wiremix"
     },
     "custom/media": {
         "format": "{icon} {}",
@@ -157,7 +157,12 @@
     },
     "custom/power": {
         "format": " ⏻ ",
-        "on-click": "~/.config/hypr/scripts/power-menu-wofi.sh"
+        "on-click": "~/.scripts/wofi-power-menu.sh"
+
+    },
+    "custom/apps": {
+        "format": " ⋏ ",
+        "on-click": "wofi --show drun"
 
     },
 }

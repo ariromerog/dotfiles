@@ -1,17 +1,16 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: "Cascadia mono nerd fond", Roboto, Helvetica, Arial,
-    sans-serif;
+  font-family: 'CaskaydiaCove Nerd Font Mono', Roboto, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #eee;
+  border: none;
+  border-radius: 0;
+  min-height: 0;
   font-size: 12px;
 }
 
 window#waybar {
-  padding: 2px;
-  background-color: #333;
-  /* background-color: rgba(43, 48, 59, 0.8); */
-  color: #ffffff;
-  transition-property: background-color;
-  transition-duration: 0.5s;
+  background-color: #181824;
 }
 
 window#waybar.hidden {
@@ -29,26 +28,32 @@ window#waybar.chromium {
 }
 
 .modules-left {
+  margin-left: 8px;
 }
 
 .modules-right {
+  margin-right: 8px;
 }
 
-#workspaces {
-  margin: 0 4px;
-}
 
 #workspaces button {
-  padding: 2px;
-  margin: 0;
+  all: initial;
+  color: rgba(255,255,255,0.5);
+  margin: 8px;
 }
 
 #workspaces button:hover {
+  color: #f00;
 }
 
 #workspaces button.active {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
+  color: #fff;
+  background-color: transparent;
+}
+
+#workspaces button.hover {
+  color: #00f;
+  background-color: transparent;
 }
 
 #workspaces button.urgent {
@@ -78,6 +83,7 @@ window#waybar.chromium {
 #scratchpad,
 #power,
 #mpd {
+  margin: 8px;
   color: #ffffff;
 }
 
@@ -115,21 +121,14 @@ label:focus {
 #language {
   background: #00b093;
   color: #740864;
-  padding: 0 5px;
-  margin: 0 5px;
-  min-width: 16px;
 }
 
 #keyboard-state {
   background: #97e1ad;
   color: #000000;
-  padding: 0 0px;
-  margin: 0 5px;
-  min-width: 16px;
 }
 
 #keyboard-state > label {
-  padding: 0 5px;
 }
 
 #keyboard-state > label.locked {
