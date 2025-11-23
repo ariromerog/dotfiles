@@ -1,7 +1,8 @@
 # My Dotfiles
 
 <center>
-  <img src="assets/desktop.png" />
+  <img src="./assets/2025-11-23_17-55.png" />
+  <img src="./assets/2025-11-23_17-56.png" />
 </center>
 
 ## Dev Environment setup
