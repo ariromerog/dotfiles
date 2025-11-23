@@ -40,6 +40,11 @@ window#waybar.chromium {
   all: initial;
   color: rgba(255,255,255,0.5);
   margin: 8px;
+  font-weight: bold;
+}
+
+#workspaces button.empty {
+  color: rgba(255,255,255,0.5);
 }
 
 #workspaces button:hover {
@@ -84,7 +89,10 @@ window#waybar.chromium {
 #power,
 #mpd {
   margin: 8px;
-  color: #ffffff;
+}
+
+#tray, #network {
+  color: #333;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
