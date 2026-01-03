@@ -8,7 +8,7 @@
     // "modules-left": ["hyprland/window"],
     "modules-left": [ "custom/apps", "hyprland/workspaces" ],
     "modules-center": ["clock"],
-    "modules-right": ["pulseaudio", "battery", "battery#bat2", "tray", "custom/power"],
+    "modules-right": ["backlight","pulseaudio", "battery", "battery#bat2", "tray", "custom/power"],
     // Modules configuration
     // "hyprland/workspaces": {
     //     "disable-scroll": true,
