@@ -1,22 +1,49 @@
 # My Dotfiles
 
+This is my personal dotfiles repository. It contains my configuration for my development environment and my desktop environment. 
+
 <center>
-  <img src="./assets/2025-11-23_17-55.png" />
-  <img src="./assets/2025-11-23_17-56.png" />
+  <img src="assets/empty_desktop.png" />
+  <img src="assets/windows.png" />
 </center>
+
+Look and feel was heavily inspired by [Omarchy](https://github.com/omarchy), but just keeping the essentials. I'm a big fan of minimalism and simplicity.
+
+## Keybindings
+
+```
+- Super + Enter           Open terminal
+- Super + space           Open launcher
+- Super + w               Open browser
+- Super + e               Open file manager
+- Super + shift + q       Close window
+- Super + shift + escape  Exit Hyprland
+```
+
+## Development Environment
+
+- Fish shell with OMF package manager
+- Neovim with LazyVim
+- Zellij terminal multiplexer
+
+## Desktop Environment
+
+- Hyprland tiling window manager
+- Waybar status bar
+- Wofi launcher
+
 
 ## Dev Environment setup
 
 - Install `fish` and `omf` using your system package manager.
-- Install `z` script and `aight` theme using `omf install`.
-- Install `vim` and a plugin manager. 
+- Install `neovim` and `lazy.nvim` plugin manager. 
 - Install `zellij` for terminal multiplexing.
 
 
 ## Desktop Environment
 
-- Install `hyprland` and `waybar` for tiling window fun.
-- Optionally install `hyprpaper` and `hyprshot`.
-- I recommend `wofi` for launcher and [wofi-power-menu](https://github.com/szaffarano/wofi-power-menu) (see waybar config).
+- Install `hyprland`, `waybar` and `wofi` for tiling window fun.
+- Install `hyprpaper` for wallpapers.
+- I recommend `flameshot` for screenshots.
 
-I use Arch, btw.
+
