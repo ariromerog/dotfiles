@@ -1,7 +1,7 @@
 [general]
 import = [
-# "./themes/gruvbox_material_medium_dark.toml"
-"./themes/catppuccin_macchiato.toml",
+"./themes/gruvbox_material_medium_dark.toml"
+# "./themes/catppuccin_macchiato.toml",
 # "./themes/tokyo_night.toml",
 ]
 
